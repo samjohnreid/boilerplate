@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Universal Box Sizing with Inheritance
+	 https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  background: #f7f7f7;
+  padding: 50px; }
+
+.container {
+  margin: 0 auto;
+  width: 980px; }
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 150px; }
+
+.items {
+  margin-top: 50px; }
+  .items__hero {
+    background: #fff;
+    height: 400px; }
+    .items__hero a {
+      align-items: center;
+      background-image: url("../img/hero-01.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: flex;
+      height: 100%;
+      justify-content: center; }
+    .items__hero span {
+      font-size: 0; }
+  .items__grid {
+    margin-top: 34px; }
+  .items__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .items__item {
+    background: #fff;
+    height: 233px;
+    margin-top: 16px;
+    width: 233px; }
+    .items__item a {
+      align-items: center;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: flex;
+      height: 100%;
+      justify-content: center; }
+      .items__item a span {
+        font-size: 0; }
+
+.items__item--item-01 a {
+  background-image: url("../img/item-01.jpg"); }
+
+.items__item--item-02 a {
+  background-image: url("../img/item-02.jpg"); }
+
+.items__item--item-03 a {
+  background-image: url("../img/item-03.jpg"); }
+
+.items__item--item-04 a {
+  background-image: url("../img/item-04.jpg"); }
