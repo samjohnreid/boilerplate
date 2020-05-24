@@ -83,6 +83,7 @@ header img {
       .items__hero a h2 {
         font-size: 0; }
       .items__hero a img {
+        max-height: 100%;
         max-width: 100%; }
   .items__grid {
     margin-top: 34px; }
@@ -105,3 +106,11 @@ header img {
       .items__item a img {
         max-height: 100%;
         max-width: 100%; }
+
+footer {
+  border-top: 1px solid #2c2d2d;
+  color: #2c2d2d;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  padding-top: 10px; }

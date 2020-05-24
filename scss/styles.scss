@@ -41,6 +41,7 @@ header {
       }
 
       img {
+        max-height: 100%;
         max-width: 100%;
       }
     }
@@ -78,4 +79,13 @@ header {
       }
     }
   }
+}
+
+footer {
+  border-top: 1px solid #2c2d2d;
+  color: #2c2d2d;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  padding-top: 10px;
 }
