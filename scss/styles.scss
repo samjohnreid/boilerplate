@@ -1,11 +1,18 @@
 .accordion {
+    font-family: Helvetica;
 
     &__summary {
-        background: red;
-        list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+        background: #067BC2;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+        list-style: #fff;
+        padding: 20px;
     }
 
     &__content {
-        background: blue;
+        background: #84BCDA;
+        padding: 25px;
     }
 }
